@@ -1,0 +1,69 @@
+.fi-form {
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+/* Make form sections wider */
+.fi-section {
+    max-width: none !important;
+}
+
+/* Reduce main content padding */
+.fi-main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Reduce page content margins */
+.fi-page {
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 1rem !important;
+}
+
+/* Make form cards wider */
+.fi-form .fi-section-content {
+    max-width: none !important;
+}
+
+/* Reduce sidebar width to give more space to content */
+.fi-sidebar {
+    width: 16rem !important; /* Default is usually 20rem */
+}
+
+/* Increase content area width */
+.fi-main-content {
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+/* Make table containers wider */
+.fi-table {
+    max-width: none !important;
+}
+
+/* Reduce header padding */
+.fi-header {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Custom responsive form widths */
+@media (min-width: 1024px) {
+    .fi-form {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .fi-page {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .fi-page {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
